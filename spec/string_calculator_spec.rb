@@ -17,8 +17,12 @@ RSpec.describe StringCalculator do
         expect(StringCalculator.add("5,2,3")).to eq(10)
     end 
 
-    it "return sum of number seprated by , or new lines" do 
+    it "return sum of numbers seprated by , or new lines" do 
         expect(StringCalculator.add("1\n2,3")).to eq(6)
+    end
+
+    it "return sum of numbers seprated by custom delimeters" do 
+        expect(StringCalculator.add("//;\n1;2" )).to eq(3)
     end
 
 end
