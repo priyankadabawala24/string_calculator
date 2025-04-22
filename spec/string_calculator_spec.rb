@@ -10,7 +10,7 @@ RSpec.describe StringCalculator do
     end 
 
     it "return sum of two numbers" do 
-        expect(StringCalculator(1,4)).to eq(5)
+        expect(StringCalculator.add("1,4")).to eq(5)
     end 
 
 end
