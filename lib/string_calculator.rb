@@ -1,6 +1,7 @@
 class StringCalculator
-    def self.add(str_val)
-        return 0 if str_val.empty?
+    def self.add(number)
+        return 0 if number.empty?
+        number.to_i
     end
 end
   

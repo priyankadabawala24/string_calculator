@@ -6,6 +6,6 @@ RSpec.describe StringCalculator do
     end
 
     it "return number itself if single number" do 
-        expect(StringCalculator.call(1)).to eq(1)
+        expect(StringCalculator.add("1")).to eq(1)
     end 
 end
