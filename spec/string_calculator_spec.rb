@@ -22,7 +22,7 @@ RSpec.describe StringCalculator do
     end
 
     it "return sum of numbers seprated by custom delimeters" do 
-        expect(StringCalculator.add("//;\n1;2" )).to eq(3)
+        expect(StringCalculator.add("//;\n1;2")).to eq(3)
     end
 
 end
